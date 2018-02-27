@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Startsida</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="author" content= "David Larsson" />
+		<meta name="describtion" content= "A contact page"/>
+		<meta name="keywords" content="bad, nickstabadet, nicksta" />
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/Style/general.css">
+	</head>
+	<body class="bg-light">
+		<header>
+			<div class="top-header p-4">
+				<h1>Nickstabadet</h1>
+				<p>Ett soligt sommarbad</p>
+			</div>
+			<nav class="navbar mb-2 navbar-expand-md navbar-light bg-white">
+				<ul class="navbar-nav" style="list">
+					<li class="nav-item"><a class="nav-link" href="/index.html">Hem</a></li>
+					<li class="nav-item"><a class="nav-link" href="/contact.html">Kontakt</a></li>
+					<li class="nav-item"><a class="nav-link" href="/status.html">Väder</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Tillbaka</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="container col-8 rounded border bg-white w-30 p-3 m-4">
+			<header>
+				<h2>Lämna dina synpunkter här!</h2>
+			</header>
+			<form>
+				<div>
+					<label>Rubrik</label>
+					<input type="text" placeholder="Rubrik" min="3" maxlength="12">
+				</div>
+				<div>
+					<label>Beskrivning</label>
+					<textarea min="3" maxlength="100"></textarea>
+					<small>Max 100 tecken</small>
+				</div>
+				<div>
+					<label>Ärende</label>
+					<select>
+						<option selected>Strand</option>
+						<option>Camping</option>
+						<option>Övrigt</option>
+					</select>
+				</div>
+				<div>
+					<p>Vill du ha svar på din synpunkt?</p>
+					<label>Ja</label>
+					<input name="Få_svar" type="radio" id="Svar_ja">
+					<label>Nej</label>
+					<input name="Få_svar" type="radio" id="Svar_nej">
+				</div>
+				<div>
+					<label>Email</label>
+					<input type="test" placeholder="exampel@email.com" min="3" maxlength="12">
+				</div>
+				<button type="submit">Skicka</button>
+			</form>
+		</section>
+		<footer class="bg-white text-center p-2 fixed-bottom">
+			<p>Vill du veta mer? Skicka e-post till <a href="mailto:david.larsson89@gmail.com">David Larsson</a></p>
+		</footer>
+	</body>
+</html>
