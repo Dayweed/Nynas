@@ -1,7 +1,7 @@
 'use strict';
 
 const KEY = '168a02b255e509a1c6a69687febcdc44';
-const API_URL = 'http://api.openweathermap.org/data/2.5/forecast?q=nynashamn&APPID=' + KEY;
+const API_URL = 'https://api.openweathermap.org/data/2.5/forecast?q=nynashamn&APPID=' + KEY;
 var tågtabell = [
     {
         Nummer: '101',
